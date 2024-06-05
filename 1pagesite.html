@@ -1,171 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-        }
-        .nav{
-            height: 60px    ;
-            width: 100%;
-            background-color: rgb(124, 59, 124);
-            display:flex ;
-            justify-content: space-between;
-        }
-        .logo{
-            padding: 20px;
-        }
-        .name{
-            height: 60px;
-            width: 100px;
-            color: rgb(255, 255, 255);
-            font-family: serif;
-            text-align: center;
-            padding: 10px;
-        }
-        .link a{
-            color: rgb(255, 255, 255);
-        }
-        .img{
-            height: 900px;
-            width: 100%;
-            background-repeat: no-repeat;
-            background-position: center;background-size: 100%;
-            background-image: url(https://images.herzindagi.info/image/2023/Aug/Black-Coffee-easy-Recipe.jpg);
-        }
-        .head{
-            height: 100px;
-            width: 100%;
-            color: rgb(173, 173, 173);
-            text-align: center;
-            font-size: 100px;
-            padding-top: 250px;
-            color:rgb(255, 230, 0);
-        }
-        .aa{
-            display: flex;
-        }
-        .bb{
-            padding: 20px;
-        }
-        .about{
-            height: 500px;
-            width: 100%;
-        }
-         h1{
-            text-align: center;
-        }
-        .detail{
-            text-align: center;
-            font-variant: small-caps;
-        }
-        .photo{
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-        }
-        .photo img{
-            height: 250px;
-            width: 260px;
-            padding-top: 20px;
-        }
-        .menu{
-            height: 535px;
-            width: 100%;
-            background-color: rgb(154, 65, 154);
-            color: rgb(255, 255, 255);
-        }
-        .drink img{
-            height: 250px;
-            width: 400px;
-        }
-        .food img{
-            height: 250px;
-            width: 400px;
-        }
-        .all{
-            display: flex;
-            align-items: center;
-            text-align: center;
-            justify-content: space-around;
-        }
-        .location{
-            display: flex;
-            height: 500px;
-            width: 100%;
-        }
-        .location h1{
-            color: black;
-            text-align: left;
-        }
-        .add{
-            color: black;
-            justify-content: center;
-            margin-top:250px;
-            font-variant: small-caps;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+      .nav {
+        height: 60px;
+        width: 100%;
+        background-color: rgb(124, 59, 124);
+        display: flex;
+        justify-content: space-between;
+      }
+      .logo {
+        padding: 20px;
+      }
+      .name {
+        height: 60px;
+        width: 100px;
+        color: rgb(255, 255, 255);
+        font-family: serif;
+        text-align: center;
+        padding: 10px;
+      }
+      .link a {
+        color: rgb(255, 255, 255);
+      }
+      .img {
+        height: 900px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        background-image: url(https://images.herzindagi.info/image/2023/Aug/Black-Coffee-easy-Recipe.jpg);
+      }
+      .head {
+        height: 100px;
+        width: 100%;
+        color: rgb(173, 173, 173);
+        text-align: center;
+        font-size: 100px;
+        padding-top: 250px;
+        color: rgb(255, 230, 0);
+      }
+      .aa {
+        display: flex;
+      }
+      .bb {
+        padding: 20px;
+      }
+      .about {
+        height: 500px;
+        width: 100%;
+      }
+      h1 {
+        text-align: center;
+      }
+      .detail {
+        text-align: center;
+        font-variant: small-caps;
+      }
+      .photo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .photo img {
+        height: 250px;
+        width: 260px;
+        padding-top: 20px;
+      }
+      .menu {
+        height: 600px;
+        width: 100%;
+        background-color: rgb(154, 65, 154);
+        color: rgb(255, 255, 255);
+        padding: 10px;
+      }
+      .drink img {
+        height: 250px;
+        width: 400px;
+      }
+      .food img {
+        height: 250px;
+        width: 400px;
+      }
+      .all {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+      }
+      .location {
+        display: flex;
+        height: 500px;
+        width: 100%;
+      }
+      .location h1 {
+        color: black;
+        text-align: left;
+      }
+      .add {
+        color: black;
+        justify-content: center;
+        margin-top: 250px;
+        font-variant: small-caps;
+      }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="nav">
-        <div class="aa">
-        <div class="logo"><i class="fa-solid fa-mug-saucer fa-2xl" style="color: #ffffff;"></i></div>
+      <div class="aa">
+        <div class="logo">
+          <i class="fa-solid fa-mug-saucer fa-2xl" style="color: #ffffff"></i>
+        </div>
         <div class="name">CENTRAL COFFEE</div>
-        </div>
-    <div class="bb">
+      </div>
+      <div class="bb">
         <div class="link">
-            <a href="#about">ABOUT</a>
-            <a href="#menu">MENU</a>
-            <a href="#location">LOCATION</a>
+          <a href="#about">ABOUT</a>
+          <a href="#menu">MENU</a>
+          <a href="#location">LOCATION</a>
         </div>
-    </div>
+      </div>
     </div>
     <div class="img">
-        <div class="head">
-            <h1>Central Coffee</h1>
-            <h6>Bespoke Of Ganically Sourced Coffee</h6>
-        </div>
+      <div class="head">
+        <h1>Central Coffee</h1>
+        <h6>Bespoke Of Ganically Sourced Coffee</h6>
+      </div>
     </div>
     <div class="about" id="about">
-        <h1>About</h1>
-        <div class="detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae, nostrum voluptate suscipit illum in eum, iure placeat id, eaque corrupti? Autem, voluptatibus, distinctio est quia id consectetur tempora dicta reiciendis corporis sequi libero eius fugiat quasi soluta quis qui unde aspernatur laborum nobis voluptate ea architecto nesciunt possimus voluptates! Laborum, quod corporis odit commodi iste obcaecati reprehenderit, rerum consequuntur laboriosam sequi delectus illum quidem repellat non voluptatem modi, fugit eligendi. Repellat quas iusto quaerat illum. Repellat, tempore nihil? Assumenda, nisi molestiae? Recusandae maxime vero in, impedit nesciunt magni rem voluptatem eligendi quidem assumenda ipsa! Iste non assumenda debitis iure expedita repellendus fugiat, distinctio eum labore maiores. Pariatur earum ducimus vel dolorum temporibus dicta quidem provident porro ut molestiae at, dolore aspernatur, tempore soluta debitis, tenetur nostrum odit! Nesciunt soluta incidunt deserunt placeat recusandae rem magni sit ipsum reprehenderit! Minima quis ratione id excepturi corrupti voluptatum, officia quia expedita ab nostrum reprehenderit repellendus fuga voluptatibus qui, dolorum cumque commodi, quaerat omnis. Unde ducimus nam quia sit, saepe explicabo debitis nesciunt repudiandae! Ducimus veniam, atque sit in quidem quibusdam, pariatur dolorem assumenda voluptates doloribus corporis sequi voluptate quod velit nisi. Doloribus harum voluptatum ullam commodi suscipit deserunt inventore qui sed quidem?</div>
-        <div class="photo">
-            <img src="https://insanelygoodrecipes.com/wp-content/uploads/2020/07/Cup-Of-Creamy-Coffee-500x375.png" alt="">
-            <img src="https://lifeboostcoffee.com/cdn/shop/articles/1445732_Highelevationcoffeebeans_NoLogo_SteamingCupOfCoffee4_090222.jpg?v=1664805147" alt="">
-            <img src="https://cdn.vox-cdn.com/thumbor/6kLvmWfhU4h64EhC0S6tsn714fI=/0x0:4032x3024/1200x900/filters:focal(1694x1190:2338x1834)/cdn.vox-cdn.com/uploads/chorus_image/image/59740845/IMG_1503.42.jpg" alt="">
-            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/media_bank/202310/worlds-most-popular-coffee-list-has-an-indian-entry-it-ranks-021614543-16x9.jpg?VersionId=wONTYSDlUNCpoLagf5CNmVmLxWj9V4UL" alt="">
-        </div>
+      <h1>About</h1>
+      <div class="detail">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+        molestiae, nostrum voluptate suscipit illum in eum, iure placeat id,
+        eaque corrupti? Autem, voluptatibus, distinctio est quia id consectetur
+        tempora dicta reiciendis corporis sequi libero eius fugiat quasi soluta
+        quis qui unde aspernatur laborum nobis voluptate ea architecto nesciunt
+        possimus voluptates! Laborum, quod corporis odit commodi iste obcaecati
+        reprehenderit, rerum consequuntur laboriosam sequi delectus illum quidem
+        repellat non voluptatem modi, fugit eligendi. Repellat quas iusto
+        quaerat illum. Repellat, tempore nihil? Assumenda, nisi molestiae?
+        Recusandae maxime vero in, impedit nesciunt magni rem voluptatem
+        eligendi quidem assumenda ipsa! Iste non assumenda debitis iure expedita
+        repellendus fugiat, distinctio eum labore maiores. Pariatur earum
+        ducimus vel dolorum temporibus dicta quidem provident porro ut molestiae
+        at, dolore aspernatur, tempore soluta debitis, tenetur nostrum odit!
+        Nesciunt soluta incidunt deserunt placeat recusandae rem magni sit ipsum
+        reprehenderit! Minima quis ratione id excepturi corrupti voluptatum,
+        officia quia expedita ab nostrum reprehenderit repellendus fuga
+        voluptatibus qui, dolorum cumque commodi, quaerat omnis. Unde ducimus
+        nam quia sit, saepe explicabo debitis nesciunt repudiandae! Ducimus
+        veniam, atque sit in quidem quibusdam, pariatur dolorem assumenda
+        voluptates doloribus corporis sequi voluptate quod velit nisi. Doloribus
+        harum voluptatum ullam commodi suscipit deserunt inventore qui sed
+        quidem?
+      </div>
+      <div class="photo">
+        <img
+          src="https://insanelygoodrecipes.com/wp-content/uploads/2020/07/Cup-Of-Creamy-Coffee-500x375.png"
+          alt=""
+        />
+        <img
+          src="https://lifeboostcoffee.com/cdn/shop/articles/1445732_Highelevationcoffeebeans_NoLogo_SteamingCupOfCoffee4_090222.jpg?v=1664805147"
+          alt=""
+        />
+        <img
+          src="https://cdn.vox-cdn.com/thumbor/6kLvmWfhU4h64EhC0S6tsn714fI=/0x0:4032x3024/1200x900/filters:focal(1694x1190:2338x1834)/cdn.vox-cdn.com/uploads/chorus_image/image/59740845/IMG_1503.42.jpg"
+          alt=""
+        />
+        <img
+          src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/media_bank/202310/worlds-most-popular-coffee-list-has-an-indian-entry-it-ranks-021614543-16x9.jpg?VersionId=wONTYSDlUNCpoLagf5CNmVmLxWj9V4UL"
+          alt=""
+        />
+      </div>
     </div>
     <div class="menu" id="menu">
-        <h1>MENU</h1>
-        <div class="detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae, nostrum voluptate suscipit illum in eum, iure placeat id, eaque corrupti? Autem, voluptatibus, distinctio est quia id consectetur tempora dicta reiciendis corporis sequi libero eius fugiat quasi soluta quis qui unde aspernatur laborum nobis voluptate ea architecto nesciunt possimus voluptates! Laborum, quod corporis odit commodi iste obcaecati reprehenderit, rerum consequuntur laboriosam sequi delectus illum quidem repellat non voluptatem modi, fugit eligendi. Repellat quas iusto quaerat illum. Repellat, tempore nihil? Assumenda, nisi molestiae? Recusandae maxime vero in, impedit nesciunt magni rem voluptatem eligendi quidem assumenda ipsa! Iste non assumenda debitis iure expedita repellendus fugiat, distinctio eum labore maiores. Pariatur earum ducimus vel dolorum temporibus dicta quidem provident porro ut molestiae at, dolore aspernatur, tempore soluta debitis, tenetur nostrum odit! Nesciunt soluta incidunt deserunt placeat recusandae rem magni sit ipsum reprehenderit! Minima quis ratione id excepturi corrupti voluptatum, officia quia expedita ab nostrum reprehenderit repellendus fuga voluptatibus qui, dolorum cumque commodi, quaerat omnis. Unde ducimus nam quia sit, saepe explicabo debitis nesciunt repudiandae! Ducimus veniam, atque sit in quidem quibusdam, pariatur dolorem assumenda voluptates doloribus corporis sequi voluptate quod velit nisi. Doloribus harum voluptatum ullam commodi suscipit deserunt inventore qui sed quidem?</div>
-        <div class="all">
-            <div class="drink">
-                  <h3>DRINKS</h3>
-                 <img src="https://d1v1e13ebw3o15.cloudfront.net/data/50064/pool_and_spa_master/..jpg" alt="">
-                 <div class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui tempore tenetur accusamus eveniet quod non, rerum quis inventore! Aspernatur dolor sit temporibus, officia nisi, recusandae voluptates vitae, nemo laudantium possimus dolorum sequi ea. Laudantium repudiandae reiciendis ducimus, nemo esse fugit praesentium. Tenetur vel maxime aperiam ex eligendi ratione? Quod!</div>
-             </div>
-            
-        <div class="food">
-            <h3>FOOD</h3>
-            <img src="https://www.homemadeinterest.com/wp-content/uploads/2021/10/Easy-Chocolate-Croissant_IG-3.jpg" alt="">
-            <div class="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quia, veniam id ad, cupiditate odio neque minus, saepe fuga quis voluptatum inventore expedita sequi voluptas iure libero! Aut dolore minima sint omnis voluptatem aliquid! Mollitia error vitae exercitationem vel eveniet. Tempora illum exercitationem nam quaerat laboriosam velit debitis officia necessitatibus.</div>
+      <h1>MENU</h1>
+      <div class="detail">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+        molestiae, nostrum voluptate suscipit illum in eum, iure placeat id,
+        eaque corrupti? Autem, voluptatibus, distinctio est quia id consectetur
+        tempora dicta reiciendis corporis sequi libero eius fugiat quasi soluta
+        quis qui unde aspernatur laborum nobis voluptate ea architecto nesciunt
+        possimus voluptates! Laborum, quod corporis odit commodi iste obcaecati
+        reprehenderit, rerum consequuntur laboriosam sequi delectus illum quidem
+        repellat non voluptatem modi, fugit eligendi. Repellat quas iusto
+        quaerat illum. Repellat, tempore nihil? Assumenda, nisi molestiae?
+        Recusandae maxime vero in, impedit nesciunt magni rem voluptatem
+        eligendi quidem assumenda ipsa! Iste non assumenda debitis iure expedita
+        repellendus fugiat, distinctio eum labore maiores. Pariatur earum
+        ducimus vel dolorum temporibus dicta quidem provident porro ut molestiae
+        at, dolore aspernatur, tempore soluta debitis, tenetur nostrum odit!
+        Nesciunt soluta incidunt deserunt placeat recusandae rem magni sit ipsum
+        reprehenderit! Minima quis ratione id excepturi corrupti voluptatum,
+        officia quia expedita ab nostrum reprehenderit repellendus fuga
+        voluptatibus qui, dolorum cumque commodi, quaerat omnis. Unde ducimus
+        nam quia sit, saepe explicabo debitis nesciunt repudiandae! Ducimus
+        veniam, atque sit in quidem quibusdam, pariatur dolorem assumenda
+        voluptates doloribus corporis sequi voluptate quod velit nisi. Doloribus
+        harum voluptatum ullam commodi suscipit deserunt inventore qui sed
+        quidem?
+      </div>
+      <div class="all">
+        <div class="drink">
+          <h3>DRINKS</h3>
+          <img
+            src="https://d1v1e13ebw3o15.cloudfront.net/data/50064/pool_and_spa_master/..jpg"
+            alt=""
+          />
+          <div class="more">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            qui tempore tenetur accusamus eveniet quod non, rerum quis
+            inventore! Aspernatur dolor sit temporibus, officia nisi, recusandae
+            voluptates vitae, nemo laudantium possimus dolorum sequi ea.
+            Laudantium repudiandae reiciendis ducimus, nemo esse fugit
+            praesentium. Tenetur vel maxime aperiam ex eligendi ratione? Quod!
+          </div>
         </div>
-        
+
+        <div class="food">
+          <h3>FOOD</h3>
+          <img
+            src="https://www.homemadeinterest.com/wp-content/uploads/2021/10/Easy-Chocolate-Croissant_IG-3.jpg"
+            alt=""
+          />
+          <div class="more">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            quia, veniam id ad, cupiditate odio neque minus, saepe fuga quis
+            voluptatum inventore expedita sequi voluptas iure libero! Aut dolore
+            minima sint omnis voluptatem aliquid! Mollitia error vitae
+            exercitationem vel eveniet. Tempora illum exercitationem nam quaerat
+            laboriosam velit debitis officia necessitatibus.
+          </div>
+        </div>
+      </div>
     </div>
     <div class="location" id="location">
-        <div class="loc">
-            <h1>LOCATION</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.863663391411!2d72.92206407507693!3d22.54677937951009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4ddfbd41137f%3A0x41a40e5073151c72!2sGaram%20Kittli!5e0!3m2!1sen!2sin!4v1716820100741!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="add">near Ratna Motors, Mota Bazaar, Vallabh Vidyanagar, Anand, Gujarat 388120</div>
+      <div class="loc">
+        <h1>LOCATION</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.863663391411!2d72.92206407507693!3d22.54677937951009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4ddfbd41137f%3A0x41a40e5073151c72!2sGaram%20Kittli!5e0!3m2!1sen!2sin!4v1716820100741!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="add">
+        near Ratna Motors, Mota Bazaar, Vallabh Vidyanagar, Anand, Gujarat
+        388120
+      </div>
     </div>
-</body>
+  </body>
 </html>
