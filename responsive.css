@@ -1,0 +1,254 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  header {
+    width: 100%;
+    height: 250px;
+  }
+  .logo {
+    width: 100%;
+    padding-left: 25%;
+  }
+  .link {
+    width: 100%;
+  }
+  .ico {
+    width: 100%;
+    padding-left: 40%;
+  }
+  .one {
+    height: 850px;
+  }
+  .one img {
+    height: 500px;
+    width: 75%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    top: 20px;
+    left: 15%;
+  }
+  .ttl {
+    width: 95%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 600px;
+    left: 5%;
+    padding-left: 50px;
+  }
+  span {
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 0;
+  }
+  .two {
+    height: 300px;
+    position: relative;
+  }
+  .lor {
+    width: 95%;
+    font-size: 20px;
+    letter-spacing: 0;
+    position: absolute;
+    left: 2%;
+    top: 10px;
+  }
+  .text2 button {
+    width: 80%;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+  }
+  .three {
+    height: 2200px;
+  }
+  .box1 {
+    width: 90%;
+  }
+  .img1 img {
+    width: 400%;
+  }
+  .box2 {
+    width: 90%;
+  }
+  .img2 img {
+    width: 400%;
+  }
+  .box3 {
+    width: 90%;
+  }
+  .img3 img {
+    width: 400%;
+  }
+  .dot {
+    height: 0;
+    width: 0%;
+  }
+  .four{
+    height: 1210px;
+  }
+  .green {
+    width: 100%;
+    height: 1200px;
+  }
+  .text4 {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 600px;
+    padding-left: 5%;
+  }
+  .text4 h3 {
+    height: 50px;
+    width: 100%;
+    font-size: 23px;
+  }
+  .text4 p {
+    height: 200px;
+    width: 100%;
+    font-size: 60px;
+  }
+  .p2 {
+    width: 100%;
+    height: 150px;
+    font-size: 18px;
+  }
+  .img4 {
+    width: 90%;
+    height: 400px;
+    background-color: #e5e5e5;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    position: absolute;
+    top: 150px;
+    left: 5%;
+  }
+  .img4 img {
+    width: 100%;
+    height: 400px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+  }
+  .five{
+    height: 2700px;
+    width: 100%;
+  }
+  .fiev1{
+    height: 1800px;
+  }
+  .img5{
+    width: 100%;
+  }
+  .text51{
+    width: 100%;
+  }
+  .det1{
+    width: 90%;
+    top: 50px;
+  }
+  .text51 h1{
+    height: 100px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .text51 p {
+    width: 90%;
+    font-size: 13px;
+  }
+  .fiev2{
+    height: 1800px;
+  }
+  .text52{
+    width: 100%;
+  }
+  .det2{
+    width: 90%;
+    top: 500px;
+    
+  }
+  .text52 h1{
+    height: 110px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .text52 p {
+    height: 150px;
+    width: 90%;
+    font-size: 13px;
+  }
+  .six{
+    height: 2300px;
+  }
+  .ttl6{
+    font-size: 50px;
+  }
+  .ttl62{
+    font-size: 20px;
+  }
+  .six1{
+    height: 500px;
+    width: 100%;
+  }
+  .six2{
+    width: 100%;
+    height: 500px;
+  }
+  .six3{
+    width: 100%;
+    height: 500px;
+  }
+  .six4{
+    width: 100%;
+    height: 500px;
+  }
+  .seven{
+    height: 3400px;
+  }
+  .box7{
+    height: 3000px;
+  }
+  .ttl7{
+    height: 200px;
+    font-size: 60px;
+  }
+  .svn1{
+    width: 95%;
+  }
+  .name71{
+    height: 100px;
+  }
+  .svn2{
+    width: 95%;
+  }
+  .name72{
+    height: 100px;
+  }
+  .svn3{
+    width: 95%;
+  }
+  .name73{
+    height: 100px;
+  }
+  .svn4{
+    width: 95%;
+  }
+  .name74{
+    height: 100px;
+  }
+  .eight{
+    height: 1400px;
+  }
+  .box8{
+    height: 1200px;
+  }
+  .egt1{
+    width: 100%;
+  }
+  .egt2{
+    width: 100%;
+  }
+  .egt3{
+    width: 100%;
+  }
+  .egt4{
+    width: 100%;
+  }
+}
